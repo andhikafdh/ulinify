@@ -1,0 +1,14 @@
+<svg width="161" height="140" viewBox="0 0 161 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M88.0844 76.0892C86.812 98.2632 101.97 127.348 105.808 130.573" stroke="#A9FFDF" stroke-width="12" stroke-linecap="round"/>
+<path d="M68.1138 75.4496C56.7042 94.8038 56.8328 127.288 58.7826 131.799" stroke="#A9FFDF" stroke-width="12" stroke-linecap="round"/>
+<path d="M148.994 16.5306C143.065 38.0047 120.685 48.2774 115.994 50.22" stroke="#A9FFDF" stroke-width="8" stroke-linecap="round"/>
+<path d="M12.3224 79.2861C16.3892 60.966 27.9908 51.2593 30.4113 49.4016" stroke="#A9FFDF" stroke-width="8" stroke-linecap="round"/>
+<circle cx="46" cy="46" r="46" transform="matrix(-1 0 0 1 118.383 0)" fill="#00FFA2"/>
+<path d="M84.3834 44C83.3167 47.7869 71.0501 48.2076 69.3834 44" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<circle cx="9.5" cy="9.5" r="9" transform="matrix(-0.978438 0.206538 0.206538 0.978438 156.463 5.49524)" fill="#A9FFDF" stroke="#A9FFDF"/>
+<circle cx="9.5" cy="9.5" r="9" transform="matrix(-0.978438 0.206538 0.206538 0.978438 18.5904 71.354)" fill="#A9FFDF" stroke="#A9FFDF"/>
+<ellipse cx="3" cy="4" rx="3" ry="4" transform="matrix(-1 0 0 1 94.3834 29)" fill="black"/>
+<circle cx="4" cy="4" r="4" transform="matrix(-1 0 0 1 66.3834 29)" fill="black"/>
+<path d="M60.1529 128.241C54.5607 128.241 50.0271 132.562 50.0269 137.893C50.0269 138.128 50.2238 138.312 50.4588 138.312H69.8471C70.0821 138.312 70.2789 138.128 70.2789 137.893C70.2787 132.562 65.7452 128.241 60.1529 128.241Z" fill="#4CAF50"/>
+<path d="M105.94 126.775C100.792 128.861 98.3875 134.529 100.569 139.436C100.666 139.652 100.924 139.748 101.143 139.659L118.981 132.434C119.201 132.345 119.308 132.101 119.212 131.885C117.03 126.978 111.087 124.69 105.94 126.775Z" fill="#4CAF50"/>
+</svg>
