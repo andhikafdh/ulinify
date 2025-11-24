@@ -40,8 +40,7 @@ export default function Onboarding() {
         initial="hidden"
         animate="visible"
       >
-        
-        {/* IMAGE */}
+
         <motion.div variants={itemVariants}>
           <Image 
             src="/onboardingcharacter.svg" 
@@ -52,7 +51,6 @@ export default function Onboarding() {
           />
         </motion.div>
 
-        {/* TEXT AREA */}
         <motion.div variants={itemVariants}>
           <h1 className="text-5xl font-semibold leading-snug text-center text-[#E9F5FF] mb-5">
             Biar AI Kita Nggak <span className="text-[#FF00BF]">Sotoy</span>
@@ -64,7 +62,6 @@ export default function Onboarding() {
           </p>
         </motion.div>
 
-        {/* BUTTON LIKE YOUR IMAGE */}
         <motion.div variants={itemVariants} className="mx-auto">
           <motion.div
             whileHover={{ scale: 1.1 }}
@@ -72,7 +69,7 @@ export default function Onboarding() {
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           >
             <Button
-              onClick={() => router.push("/onboarding/step1")}
+              onClick={() => router.push("/question/1")}
               className="w-15 h-15 bg-[#7dffb5] rounded-3xl shadow-lg flex items-center justify-center hover:bg-[#70f0a7] p-0 cursor-pointer"
             >
               <ArrowRight 

@@ -52,8 +52,8 @@ export function LoginForm({
     <div className={cn("flex flex-col gap-3", className)} {...props}>
       <Card className="gap-2 border-none bg-transparent">
         <CardDescription className="mb-5">
-        <h1 className="text-7xl font-semibold leading-snug text-[#E9F5FF]">
-            Selamat datang kembali
+        <h1 className="text-6xl lg:text-7xl pl-4 font-semibold leading-snug text-[#E9F5FF]">
+            Selamat datang kembali!
         </h1>
         </CardDescription>
         <CardContent>
@@ -66,7 +66,7 @@ export function LoginForm({
                   <FormItem>
                     <FormLabel htmlFor="email" className="text-sm md:text-base text-white">Email</FormLabel>
                     <FormControl className="py-7">
-                      <Input id="email" type="email" placeholder="Email / Nomor Telepon" className="text-sm md:text-base" {...field} />
+                      <Input id="email" type="email" placeholder="Email / Nomor Telepon" className="text-sm md:text-base text-white" {...field} />
                     </FormControl>
                     <FormMessage className="text-sm md:text-base" />
                   </FormItem>
@@ -82,7 +82,7 @@ export function LoginForm({
                       <FormLabel htmlFor="password" className="text-sm md:text-base text-white">Password</FormLabel>
                       <a
                         href="#"
-                        className="ml-auto text-xs underline-offset-4 hover:underline"
+                        className="ml-auto text-xs underline-offset-4 hover:underline text-white"
                       >
                         Forgot your password?
                       </a>
@@ -93,7 +93,7 @@ export function LoginForm({
                           type={showPassword ? "text" : "password"}
                           placeholder="Password"
                           disabled={isSubmitting}
-                          className="h-14 text-base pr-12"
+                          className="h-14 text-base pr-12 text-white"
                           {...field}
                         />
                         <button

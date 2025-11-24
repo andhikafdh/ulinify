@@ -38,14 +38,13 @@ export default function Home() {
         initial="hidden"
         animate="visible"
       >
-        {/* Logo + Text */}
         <motion.div className="flex flex-col gap-5" variants={itemVariants}>
           <div>
             <Image src="/logo.svg" alt="Ulinify Logo" width={139} height={141} />
           </div>
 
           <div>
-            <h1 className="text-7xl font-semibold leading-snug text-[#00FFA1]">
+            <h1 className="text-6xl lg:text-7xl font-semibold leading-snug text-[#00FFA1]">
               Small Steps,
               <br />
               Big Impacts
@@ -61,10 +60,8 @@ export default function Home() {
           <Image src="/characterright.svg" alt="Welcome Illustration" width={200} height={200} />
         </motion.div>
 
-        {/* Buttons */}
         <motion.div className="flex flex-col gap-3" variants={itemVariants}>
 
-          {/* Start Button */}
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(255, 43, 166, 0.3)" }}
             whileTap={{ scale: 0.98 }}
@@ -75,7 +72,6 @@ export default function Home() {
             Mulai
           </motion.button>
 
-          {/* Login Button */}
           <motion.button
             whileHover={{ scale: 1.03, backgroundColor: "#dce6ff" }}
             whileTap={{ scale: 0.98 }}
